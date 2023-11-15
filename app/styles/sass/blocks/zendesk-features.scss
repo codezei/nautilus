@@ -1,0 +1,49 @@
+.zendesk-features {
+    padding: 120px 0;
+    
+    &--lightgray {
+        background-color: #F6F8F9;
+    }
+    &--blue {
+        background-color: rgba($color: #5F9CF7, $alpha: 0.1);
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &__btn {
+        margin-top: 4rem;
+    }
+
+
+    @media screen and (max-width: 1199px) {
+        padding: 100px 0;
+        &__title {
+            margin-bottom: 3rem;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        padding: 80px 0;
+        &__title {
+            margin-bottom: 2.5rem;
+        }
+        &__btn {
+            margin-top: 3rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 60px 0;
+        &__title {
+            margin-bottom: 2rem;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        padding: 40px 0;
+        &__title {
+            margin-bottom: 1.5rem;
+        }
+        &__btn {
+            margin-top: 2rem;
+        }
+    }
+}

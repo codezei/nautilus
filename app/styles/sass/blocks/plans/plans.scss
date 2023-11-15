@@ -1,0 +1,41 @@
+.plans {
+    &__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &__btn {
+        margin-top: 80px;
+    }
+}
+
+.plan {
+    height: 100%;
+    background-color: #F6F8F9;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    &__icon {
+        margin-bottom: 1.5rem;
+        height: 80px;
+        img {
+            height: 100%;
+        }
+    }
+    &__title {
+        margin-bottom: 2rem;
+    }
+    &__list {
+        text-align: left;
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #E8EDEF;
+    }
+    &__item {
+        list-style-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.49987 13.4751L4.6082 10.5834C4.2832 10.2584 3.7582 10.2584 3.4332 10.5834C3.1082 10.9084 3.1082 11.4334 3.4332 11.7584L6.91654 15.2418C7.24154 15.5668 7.76654 15.5668 8.09154 15.2418L16.9082 6.4251C17.2332 6.1001 17.2332 5.5751 16.9082 5.2501C16.5832 4.9251 16.0582 4.9251 15.7332 5.2501L7.49987 13.4751Z' fill='%23F34558'/%3E%3C/svg%3E%0A");
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        &:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

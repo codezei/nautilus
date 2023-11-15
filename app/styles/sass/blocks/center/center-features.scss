@@ -1,0 +1,36 @@
+.center-features {
+    &__title {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &__btn {
+        margin-top: 4rem;
+    }
+
+    @media screen and (max-width: 1199px) {
+        &__title {
+            margin-bottom: 5rem;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &__title {
+            margin-bottom: 4rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &__title {
+            margin-bottom: 3rem;
+        }
+        &__btn {
+            margin-top: 3rem;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__title {
+            margin-bottom: 1.5rem;
+        }
+        &__btn {
+            margin-top: 2rem;
+        }
+    }
+}

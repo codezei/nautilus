@@ -1,0 +1,26 @@
+.comments {
+    &__inner {
+        padding: 1.5rem;
+        background-color: rgba(232, 237, 239, 0.40);
+        border: 1px solid #EEEEEF;
+        border-radius: 1rem;
+        &:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__title {
+        margin-bottom: 0;
+    }
+    &__form {
+        margin-top: 1.5rem;
+    }
+
+
+
+    @media screen and (max-width: 575px) {
+        &__inner {
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+    }
+}

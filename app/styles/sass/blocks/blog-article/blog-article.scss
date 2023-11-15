@@ -1,0 +1,26 @@
+.blog-article {
+    &__info {
+        padding: 1.5rem 0;
+        border-top: 1px solid #EEEEEF;
+        border-bottom: 1px solid #EEEEEF;
+        margin-bottom: 2rem;
+        &-name {
+            margin-bottom: 4px;
+        } 
+        &-post {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        &-img {
+            img {
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+            }
+        }
+        &-meta {
+            font-size: 12px;
+        }
+    }
+
+}

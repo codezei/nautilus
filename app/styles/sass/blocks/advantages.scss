@@ -1,0 +1,27 @@
+.advantages {
+    &__btn {
+        margin-top: 4rem;
+    }
+
+    @media screen and (max-width: 1199px) {
+        &__btn {
+            margin-top: 3.5rem;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &__btn {
+            margin-top: 3rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &__btn {
+            margin-top: 2.5rem;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__btn {
+            margin-top: 2rem;
+        }
+    
+    }
+}

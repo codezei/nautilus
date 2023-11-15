@@ -1,0 +1,41 @@
+.supervisory {
+    &__title {
+        margin-bottom: 4rem;
+    }
+    &__list {
+        margin-bottom: 4rem;
+    }
+    &__item {
+        &:not(:last-child) {
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #E9ECF2;
+        }
+    }
+    &__img {
+        max-width: unset;
+        border-radius: 1.5rem;
+    }
+
+
+    @media screen and (max-width: 991px) {
+        text-align: center;
+        &__list {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        &__title {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        &__item {
+            &:not(:last-child) {
+                padding-bottom: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+        &__img {
+            max-width: 100%;
+        }
+    }
+}

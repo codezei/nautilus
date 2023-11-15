@@ -1,0 +1,14 @@
+.achievements {
+    &__item {
+        padding: 2rem 1.5rem;
+        border-radius: 1rem;
+        border: 1px solid #E8EDEF;
+        background: #FFF;
+        height: 100%;
+    }
+    &__row {
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+}

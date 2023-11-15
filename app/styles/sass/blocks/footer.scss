@@ -1,0 +1,109 @@
+.footer {
+    padding-top: 150px;
+    background-color: var(--dark);
+    font-size: 16px;
+    color: rgba($color: #E8EDEF, $alpha: 0.6);
+    &__navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &-title {
+            color: #fff;
+            margin-bottom: 2rem;
+        }
+        &-btn {
+            text-align: center;
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+        }
+    }
+    &__logo {
+        color: #fff;
+        margin-bottom: 4rem;
+    }
+    &__link {
+        color: inherit;
+        text-decoration: none;
+        display: inline-block;
+    }
+    &__social {
+        margin-top: 2rem;
+    }
+    &__content {
+        margin-bottom: 4rem;
+        position: relative;
+    }
+    &__bottom {
+        text-align: center;
+        padding: 3rem 0;
+        border-top: 1px solid rgba($color: #fff, $alpha: 0.1);
+    }
+    .menu {
+
+        li {
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        padding-top: 100px;
+    }
+    @media screen and (max-width: 991px) {
+        padding-top: 80px;
+    }
+
+    @media screen and (max-width: 767px) {
+        padding-top: 60px;
+        &__navigation {
+            &-title {
+                margin-bottom: 1.5rem;
+            }
+            &-row {
+                display: flex;
+                width: 100%;
+            }
+            &-btn {
+                width: calc(50% - 1rem);
+                &:not(:last-child) {
+                    margin-right: 0.5rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &__social {
+            position: absolute;
+            z-index: 1;
+            bottom: -1rem;
+            left: 50%;
+            transform: translate(-50%, 100%);
+        }
+        &__logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        &__bottom {
+            padding: 1.5rem 0;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        padding-top: 40px;
+    }
+
+
+}
+
+
+.social {
+    &__item {
+        text-decoration: none;
+        transition: all 400ms;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

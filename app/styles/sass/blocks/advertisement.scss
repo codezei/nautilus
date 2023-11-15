@@ -1,0 +1,79 @@
+.advertisement {
+    padding-bottom: 150px;
+    &__title {
+        margin-bottom: 1rem;
+    }
+    &__description {
+        font-size: 16px;
+        margin-bottom: 2rem;
+    }
+    &__img {
+        position: absolute;
+        left: 50%;
+        width: 50%;
+        bottom: -150px;
+        &--top {
+            bottom: 0;
+            width: 25%;
+            left: 75%;
+        }
+    }
+
+    &__inner {
+        padding: 100px;
+        background-color: #A2E3DD;
+        border-radius: 3rem;
+        position: relative;
+        background-image: url(../images/dist/lines-2.png);
+        background-size: cover;
+    }
+    &__tel {
+        a {
+            color: inherit;
+        }
+    }
+
+
+    @media screen and (max-width: 1399px) {
+        &__inner {
+            padding: 60px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &__inner {
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+        &__img {
+            position: static;
+            width: 100%;
+            margin-bottom: calc(-150px - 2rem);
+            &--top {
+                text-align: right;
+                margin-bottom: -2rem;
+            }
+        }
+
+    }
+    @media screen and (max-width: 767px) {
+        &__inner {
+            padding: 2rem 1.5rem;
+            border-radius: 1.5rem;
+        }
+
+    }
+    @media screen and (max-width: 575px) {
+        &__inner {
+            padding: 2rem 1rem;
+            border-radius: 1rem;
+        }
+        &__img {
+            &--top {
+                margin-top: 1rem;
+                max-width: 140px;
+                margin-left: auto;
+            }
+        }
+        
+    }
+}

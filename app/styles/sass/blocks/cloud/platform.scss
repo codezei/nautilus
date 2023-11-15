@@ -1,0 +1,55 @@
+.platform {
+    &__title {
+        margin-bottom: 2rem;
+    }
+    &__description {
+        margin-bottom: 0;
+    }
+    &__inner {
+        padding: 150px 114px;
+        background-color: #F6F8F9;
+        border-radius: 2rem;
+    }
+    &__item {
+        &:not(:last-child) {
+            padding-bottom: 1.5rem;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #E9ECF2;
+        }
+    }
+    @media screen and (max-width: 1199px) {
+
+        &__inner {
+            padding: 100px 60px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &__title {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        &__inner {
+            padding: 80px 40px;
+        }
+        &__item {
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+
+        &__inner {
+            padding: 60px 20px;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__title {
+            margin-bottom: 1rem;
+        }
+        &__inner {
+            padding: 40px 15px;
+        }
+        
+    }
+}

@@ -1,0 +1,52 @@
+.story-team {
+    padding: 500px 0;
+    text-align: center;
+    background-image: url(../images/dist/story-team-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        width: 1112px;
+        max-width: 100%;
+        height: 1029px;
+        max-height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        pointer-events: none;
+        background-image: url("data:image/svg+xml,%3Csvg width='1440' height='1302' viewBox='0 0 1440 1302' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M663.906 1189.04C404.851 1189.57 194.394 969.006 193.89 696.346C193.386 423.686 403.026 202.265 662.082 201.735C921.137 201.205 1131.59 421.766 1132.1 694.426C1132.6 967.086 922.962 1188.51 663.906 1189.04Z' stroke='%23E8EDEF'/%3E%3Cpath d='M778.396 1150.04C519.341 1150.57 308.883 930.013 308.379 657.353C307.875 384.692 517.516 163.272 776.571 162.742C1035.63 162.211 1246.08 382.772 1246.59 655.432C1247.09 928.093 1037.45 1149.51 778.396 1150.04Z' stroke='%23E8EDEF'/%3E%3Cg opacity='0.1' filter='url(%23filter0_f_1820_8059)'%3E%3Cellipse cx='720' cy='651' rx='556' ry='451' fill='%23F07DBC'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f_1820_8059' x='-36' y='0' width='1512' height='1302' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='100' result='effect1_foregroundBlur_1820_8059'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &__content {
+        max-width: 780px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__subtitle {
+        margin-bottom: 1rem;
+    }
+    &__title {
+        margin-bottom: 1rem;
+    }
+    &__description {
+        margin-bottom: 2rem;
+    }
+
+
+    @media screen and (max-width: 991px) {
+        padding: 400px 0;
+    }
+    @media screen and (max-width: 767px) {
+        padding: 300px 0;
+    }
+    @media screen and (max-width: 575px) {
+        padding: 225px 0;
+    }
+
+}

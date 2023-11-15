@@ -1,0 +1,108 @@
+.intro {
+    &__flame-main {
+        position: relative;
+        @supports (filter: blur(100px)) {
+            &:before {
+                content: "";
+                display: block;
+                width: 1079px;
+                height: 1143px;
+                position: absolute;
+                right: -100px;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: -1;
+                pointer-events: none;
+                background-image: url("data:image/svg+xml,%3Csvg width='1079' height='1143' viewBox='0 0 1403 1351' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.15' filter='url(%23filter0_f_1803_7329)'%3E%3Cpath d='M688.334 318.811C429.676 318.766 207 565.716 207 753.144C207 940.571 342.151 1143.21 600.809 1143.26C728.986 1143.28 920.371 889.75 1072.66 796.442C1227.68 701.457 1192.43 445.823 1192.43 351.275C1192.43 163.847 946.992 318.855 688.334 318.811Z' fill='%23F07DBC'/%3E%3C/g%3E%3Cpath d='M826.916 809.111C623.158 809.528 457.615 636.046 457.219 421.573C456.822 207.1 621.723 32.9418 825.481 32.5247C1029.24 32.1077 1194.78 205.59 1195.18 420.063C1195.57 634.536 1030.67 808.694 826.916 809.111Z' stroke='%23E8EDEF'/%3E%3Cpath d='M916.995 778.431C713.237 778.849 547.694 605.366 547.298 390.893C546.901 176.421 711.802 2.26206 915.56 1.84505C1119.32 1.42803 1284.86 174.91 1285.26 389.383C1285.65 603.856 1120.75 778.014 916.995 778.431Z' stroke='%23E8EDEF'/%3E%3Cdefs%3E%3Cfilter id='filter0_f_1803_7329' x='0.159866' y='51.8073' width='1402.55' height='1298.29' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='103.42' result='effect1_foregroundBlur_1803_7329'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+                background-position: right top;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    &__flame-green {
+        position: relative;
+        @supports (filter: blur(100px)) {
+            &:before {
+                content: "";
+                display: block;
+                width: 60%;
+                padding-bottom: 50%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                background: #A2E3DD;
+                filter: blur(84px);
+                z-index: -1;
+                pointer-events: none;
+
+            }
+        }
+    }
+    &__flame-purple {
+        position: relative;
+        @supports (filter: blur(100px)) {
+            &:before {
+                content: "";
+                display: block;
+                width: 100%;
+                padding-bottom: 70%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                background: #D1CDFF;
+                filter: blur(84px);
+                z-index: -1;
+                pointer-events: none;
+
+            }
+        }
+    }
+    &__flame-red {
+        position: relative;
+        @supports (filter: blur(100px)) {
+            &:before {
+                content: "";
+                display: block;
+                width: 100%;
+                padding-bottom: 50%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0.25;
+                background: #F07DBC;
+                filter: blur(84px);
+                z-index: -1;
+                pointer-events: none;
+
+            }
+        }
+    }
+    &__title {
+        margin-bottom: 2rem;
+    }
+    &__description {
+        margin-bottom: 2rem;
+    }
+    &__img {
+        img {
+            border-radius: 1.5rem;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        text-align: center;
+    }
+    @media screen and (max-width: 575px) {
+        &__flame-red {
+            &:before {
+                right: 100px;
+            }
+        }
+
+    }
+}
