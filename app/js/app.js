@@ -9,14 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	stickyHeader()
 	testimonialsSlider()
 	cloudFeaturesSlider()
-	// toggleTimeline()
 	toggleFaq()
 	teamSlider()
 	customSelect()
 	postsSlider()
 	changeRates()
-	// changeRatesValues()
-
+	reviewsSlider()
 })
 function mobMenuToggle() {
 	let btn = document.querySelector('.header__navigation-btn-menu')
@@ -68,6 +66,20 @@ function testimonialsSlider() {
 				slidesPerView: 1
 			},
 		}
+	});
+}
+
+function reviewsSlider() {
+	let swiper = new Swiper(".reviews-swiper", {
+		slidesPerView: 1,
+		spaceBetween: 24,
+		navigation: {
+			nextEl: ".reviews-button-next",
+			prevEl: ".reviews-button-prev",
+		},
+		pagination: {
+			el: ".reviews-pagination",
+		  },
 	});
 }
 

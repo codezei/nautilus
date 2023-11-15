@@ -1,0 +1,42 @@
+.reviews {
+    &-swiper {
+        &-wrap {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &-button {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+
+    }
+    &-pagination {
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin-top: 2rem;
+        .swiper-pagination-bullet-active {
+            background-color: var(--red);
+        }
+    }
+}
+
+.review {
+    text-align: center;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    &__text {
+        margin-bottom: 1.5;
+    }
+    &__author {
+        margin-bottom: 0;
+    }
+}
