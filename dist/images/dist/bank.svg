@@ -1,1 +1,11 @@
-<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m12.372 2.15 9 3.6c.35.14.63.56.63.93V10c0 .55-.45 1-1 1h-18c-.55 0-1-.45-1-1V6.68c0-.37.28-.79.63-.93l9-3.6c.2-.08.54-.08.74 0ZM22.002 22h-20v-3c0-.55.45-1 1-1h18c.55 0 1 .45 1 1v3ZM3.998 18v-7m4.004 7v-7M12 18v-7m3.998 7v-7m4.004 7v-7M.998 22h22" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.3719 2.15009L21.3719 5.75006C21.7219 5.89006 22.002 6.31006 22.002 6.68006V10.0001C22.002 10.5501 21.552 11.0001 21.002 11.0001H3.00195C2.45195 11.0001 2.00195 10.5501 2.00195 10.0001V6.68006C2.00195 6.31006 2.28196 5.89006 2.63196 5.75006L11.632 2.15009C11.832 2.07009 12.1719 2.07009 12.3719 2.15009Z" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.002 22H2.00195V19C2.00195 18.45 2.45195 18 3.00195 18H21.002C21.552 18 22.002 18.45 22.002 19V22Z" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.99805 18V11" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.00195 18V11" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18V11" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.998 18V11" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.002 18V11" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.998047 22H22.998" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z" stroke="#DC143C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

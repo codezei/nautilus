@@ -238,6 +238,11 @@ function changeRates () {
 	if (!ratesSelect) return
 	let fixedLine = document.querySelector('.js-rates-fixed')
 	let mobile = document.querySelector('.js-rates-mobile')
+
+	let value = ratesSelect.querySelector('.option.current').dataset.value.split(';')
+	fixedLine.innerHTML = value[0]
+	mobile.innerHTML = value[1]
+
 	ratesSelect.addEventListener('click', function (e) {
 		if (e.target.classList.contains('option')) {
 			let value = e.target.dataset.value.split(';')

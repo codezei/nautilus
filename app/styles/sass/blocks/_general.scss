@@ -8,6 +8,7 @@
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 html {
@@ -143,7 +144,7 @@ h6 {
     text-decoration: none;
     border-radius: 2rem;
     transition: all 400ms;
-
+    white-space: nowrap;
     &-primary {
         background-color: var(--red);
         color: #fff;
