@@ -12,6 +12,33 @@
         margin-left: auto;
         margin-right: auto;
     }
+    &-swiper {
+        padding: 0 25px;
+        
+        .swiper-wrapper {
+            align-items: center;
+        }
+    }   
+    &-slide {
+        text-align: center;
+    }
+    &-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        z-index: 2;
+        &-next {
+            right: 0px;
+            left: auto;
+        }
+        &-prev {
+            left: 0px;
+            right: auto;
+        }
+    }
 
     @media screen and (max-width: 1199px) {
         &__title {

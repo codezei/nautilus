@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	postsSlider()
 	changeRates()
 	reviewsSlider()
+	brandsSlider()
 })
 function mobMenuToggle() {
 	let btn = document.querySelector('.header__navigation-btn-menu')
@@ -64,6 +65,31 @@ function testimonialsSlider() {
 			},
 			0: {
 				slidesPerView: 1
+			},
+		}
+	});
+}
+
+function brandsSlider() {
+	let swiper = new Swiper(".brands-swiper", {
+		slidesPerView: 3,
+		spaceBetween: 24,
+		autoplay: true,
+		loop: false,
+		navigation: {
+			nextEl: ".brands-button-next",
+			prevEl: ".brands-button-prev",
+		},
+
+		breakpoints: {
+			1200: {
+				slidesPerView: 5,
+			},
+			992: {
+				slidesPerView: 4,
+			},
+			0: {
+				slidesPerView: 3
 			},
 		}
 	});

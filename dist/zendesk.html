@@ -27,24 +27,68 @@
                     <!-- wp_nav_menu() - primary-menu -->
                     <div class="menu-primary-menu-container">
                         <ul class="menu primary-menu" id="primary-menu">
-                            <li class="menu-item">
+                            <li class="menu-item menu-item-has-children">
                                 <a href="./story.html">Our Story</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="./meet.html">Meet Out Team</a>
+                                    </li>
+                                </ul>
                             </li>
-
-                            <li class="menu-item">
-                                <a href="./solution.html">Our Solutions</a>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Our Solutions</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="./finance.html">Finance</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="menu-item">
-                                <a href="./resources.html">Resources</a>
-                            </li>
-                            <li class="menu-item">
+                            <li class="menu-item menu-item-has-children">
                                 <a href="./plans.html">Our Plans</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="./cloud.html">Cloud Telephony</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./center.html">Contact Center</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./talk.html">Nautilus Talk Basic</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./zendesk.html">Zendesk</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./telephony.html">Nautilus Cloud Telephony</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./contact-center.html">Nautilus Contact Center</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./basic.html">Nautilus Talk Basic Feature List</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="">Resources</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="./studies.html">IDD Rates</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./studies.html">Case Studies</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./blog.html">Blog</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="menu-item">
                                 <a href="./contacts.html">Contact Us</a>
                             </li>
                             <li class="menu-item">
-                                <a href="./help.html">Help Center</a>
+                                <a href="https://pdi-nautilussip.zendesk.com/hc/en-us" target="_blank">Help Center</a>
                             </li>
                         </ul>
                     </div>
@@ -236,29 +280,46 @@
     <section class="brands block">
     <div class="container">
         <div class="brands__title">Trusted by brands of all shapes and sizes</div>
-        <div class="row justify-content-center justify-content-lg-between align-items-center">
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/afeli.png" alt="">
+        <div class="swiper brands-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/afeli.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/fair-price.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/deloitte.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/psychology-hub.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/nippon-paint.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/lhn.png" alt="">
+                </div>
+                <div class="swiper-slide brands-slide">
+                    <img src="./images/dist/get-go.png" alt="">
+                </div>
             </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/fair-price.png" alt="">
+            <div class="swiper-button-next brands-button-next brands-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
             </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/deloitte.png" alt="">
-            </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/psychology-hub.png" alt="">
-            </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/nippon-paint.png" alt="">
-            </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/lhn.png" alt="">
-            </div>
-            <div class="col-6 col-sm-4 col-md-4 col-lg-auto text-center">
-                <img src="./images/dist/get-go.png" alt="">
+            <div class="swiper-button-prev brands-button-prev brands-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                </svg>
             </div>
         </div>
+
     </div>
 </section>
     <section class="solutions block solutions--bg-blue">

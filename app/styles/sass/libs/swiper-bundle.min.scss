@@ -219,20 +219,20 @@
 .swiper-button-prev {
     cursor: pointer;
     background: transparent;
-    border: 1px solid var(--brand-purple-light);
+    // border: 1px solid var(--brand-purple-light);
     width: 56px;
     height: 56px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--brand-purple-normal);
+    color: gray;
     margin: 0 8px;
     transition: all 400ms;
-    &:hover {
-        background-color: var(--brand-purple-normal);
-        color: var(--brand-purple-light-max);
-    }
+    // &:hover {
+    //     background-color: var(--brand-purple-normal);
+    //     color: var(--brand-purple-light-max);
+    // }
     // position: absolute;
     // top: 50%;
     // width: calc(var(--swiper-navigation-size)/ 44 * 27);
